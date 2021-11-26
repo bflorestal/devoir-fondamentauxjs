@@ -25,7 +25,6 @@ function convert() {
     // On met les données dans les variables
     temperatureCel = celInput.value;
     temperatureFah = fahInput.value;
-    console.log(`temp cel : ${temperatureCel} et temp fah : ${temperatureFah}`)
     // Si fah vide, prendre cel et convertir, sinon prendre fah et convertir
     if (temperatureCel) {
         fahInput.value = convToFah(temperatureCel);
