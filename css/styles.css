@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-top: 1rem;
+}
+
+.modal {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.modal .modal-body {
+  margin: 15% auto;
+  width: 70%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 1em;
+}
+
+.displayblock {
+  display: block;
+}
+
+.displaynone {
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 0;
+}
+main section .exo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+main section .exo-container .exo-title-container {
+  margin: 1rem 0;
+}
+main section .exo-container .exo-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+main section .exo-container .exo-content-container .inputs-container {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
